@@ -3,7 +3,7 @@ class Farm  {
    public Farm()     {       
       aBunchOfAnimals = new Animal[3];
       aBunchOfAnimals[0] = new NamedCow("cow","Elsie","moo");           
-      aBunchOfAnimals[1] = new Chick("chick","cheep","cluck");       
+      aBunchOfAnimals[1] = new Chick("chick","");       
       aBunchOfAnimals[2] = new Pig("pig","oink");    
    }         
    public void animalSounds()    {       
